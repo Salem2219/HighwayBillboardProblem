@@ -1,7 +1,7 @@
 # Highway Billboard Problem
 Consider a highway of M miles. The task is to place billboards on the highway such that revenue is maximized. The possible sites for billboards are given by number x(1) < x(2) < ….. < x(n-1) < x(n), specifying positions in miles measured from one end of the road. If we place a billboard at position x(i), we receive a revenue of r(i) > 0. There is a restriction that no two billboards can be placed within t miles or less than it.
 
-Note : All possible sites from x1 to xn are in range from 0 to M as need to place billboards on a highway of M miles.
+Note : All possible sites from x(1) to x(n) are in range from 0 to M as need to place billboards on a highway of M miles.
 
 Examples:
 
