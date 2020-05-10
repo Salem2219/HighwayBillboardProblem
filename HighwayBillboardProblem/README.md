@@ -24,7 +24,7 @@ Output : 18
 # Notes
 - M, n, t : 8 bits.
 - X, revenue : roms (255 x 8) bits.
-- There are rom.vhd program helps the user to input x and revenue elments.
+- There are rom.vhd program helps the user to input x and revenue elements.
 ## Install
 
 These examples use [ModelSim&reg; and Quartus&reg; Prime from Intel FPGA](http://fpgasoftware.intel.com/?edition=lite), [GIT](https://git-scm.com/download/win), [Visual Studio Code](https://code.visualstudio.com/download), make sure they are installed locally on your computer before proceeding.
@@ -57,7 +57,7 @@ These examples use [ModelSim&reg; and Quartus&reg; Prime from Intel FPGA](http:/
     $ vcom *.vhd
     ```
     
-5. Simulate your design. For example, if M = 20, n = sizeof(x) = 5, t = 5, x = {6, 7, 12, 13, 14}, revenue[] = {5, 6, 5,  3,  1} then y = 10:
+5. Simulate your design. For example, if M = 20, n = sizeof(x) = 5, t = 5, x = {6, 7, 12, 13, 14}, revenue = {5, 6, 5,  3,  1} then y = 10:
 - The elements of x and revenue are specified in rom.vhd
 
     ```sh
